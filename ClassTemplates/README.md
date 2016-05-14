@@ -41,3 +41,11 @@ when they are used.
   * `MyClass<float*,int*> m2;`   uses MyClass<T1*,T2*> 
 * If  more than one partial specialization matches equally well, the declaration is ambigous.
   * Here `MyClass<int,int> m` will cause **error** coz it matches `MyClass<T,T>` and `MyClass<T,int>`
+
+## Default template arguments
+- Class templates can be defined with default values for template parameters. For eg:
+- `template<typename T,typename CONT = std::vector<T>>`
+- `class MyStack{`
+- `private:`
+- `CONT elems;`
+- `}`
