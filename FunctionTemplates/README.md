@@ -12,4 +12,7 @@
 - Prior to C++ 11, default argument were not valid in C++.
 - But C++ 11 supports default arguments for templates.
 
+### Overloaded function resolution
+- (http://stackoverflow.com/questions/22411482/c-template-functions-overload-resolution)
+
 
