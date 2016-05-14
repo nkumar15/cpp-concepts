@@ -10,7 +10,7 @@ void same_types();
 
 /*Function 1*/
 template <typename T>
-T sum(T a , T b){
+T const & sum(const T& a , const T& b){
     return a + b;
 }
 
