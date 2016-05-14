@@ -21,20 +21,20 @@ when they are used.
 * You can specify special implementation for particular circumstances but some template parameter must still be defined. For eg:
   * `template<typename T1,typename T2>`
   * `class MyClass {....};`
-- Following partial specialization are possible
-- Both parameters are same type
-- `template<typename T>`
-- `class MyClass<T,T> {....};`
-- second type is int
-- `template<typename T>`
-- `class MyClass<T,int> {....};`
-- both templates are pointer type
-- `template<typename T1,typename T2>`
-- `class MyClass<T1*,T2*> {....};`
-- Following examples shows which template is called
-- `MyClass<int,float> m1;`     uses MyClass<T1,T2> 
-- `MyClass<int,int> m2;`       uses MyClass<T,T> 
-- `MyClass<float,int> m2;`     uses MyClass<T,int> 
-- `MyClass<float*,int*> m2;`   uses MyClass<T1*,T2*> 
-- If  more than one partial specialization matches equally well, the declaration is ambigous.
-- Here `MyClass<int,int> m` will cause **error** coz it matches `MyClass<T,T>` and `MyClass<T,int>`
+* Following partial specialization are possible
+  * Both parameters are same type
+    * `template<typename T>`
+    * `class MyClass<T,T> {....};`
+  * second type is int
+    * `template<typename T>`
+    * `class MyClass<T,int> {....};`
+  * both templates are pointer type
+    * `template<typename T1,typename T2>`
+    *`class MyClass<T1*,T2*> {....};`
+* Following examples shows which template is called
+  * `MyClass<int,float> m1;`     uses MyClass<T1,T2> 
+  * `MyClass<int,int> m2;`       uses MyClass<T,T> 
+  * `MyClass<float,int> m2;`     uses MyClass<T,int> 
+  * `MyClass<float*,int*> m2;`   uses MyClass<T1*,T2*> 
+* If  more than one partial specialization matches equally well, the declaration is ambigous.
+  * Here `MyClass<int,int> m` will cause **error** coz it matches `MyClass<T,T>` and `MyClass<T,int>`
