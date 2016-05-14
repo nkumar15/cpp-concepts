@@ -30,7 +30,7 @@ when they are used.
     * `class MyClass<T,int> {....};`
   * both templates are pointer type
     * `template<typename T1,typename T2>`
-    * `class MyClass<T1 \*,T2 \*> {....};`
+    * `class MyClass<T1 *,T2 *> {....};`
 * Following examples shows which template is called
   * `MyClass<int,float> m1;`     uses MyClass<T1,T2> 
   * `MyClass<int,int> m2;`       uses MyClass<T,T> 
