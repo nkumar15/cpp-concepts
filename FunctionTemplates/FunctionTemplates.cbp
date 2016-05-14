@@ -33,6 +33,8 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="main.cpp" />
+		<Unit filename="overloaded.h" />
+		<Unit filename="overloadedfunctions.cpp" />
 		<Unit filename="sametypes.cpp">
 			<Option target="Debug" />
 		</Unit>
