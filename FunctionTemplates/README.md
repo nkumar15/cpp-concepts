@@ -2,7 +2,7 @@
 
 ##General concepts
 
-1. template<typename T>
+1. `template<typename T>`
 >T is called template paramer
 
 2. void sum(T a, T b)
