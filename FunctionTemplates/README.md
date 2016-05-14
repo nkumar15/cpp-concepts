@@ -10,6 +10,7 @@
 `void sum(T a, T b)`
 - T is called template parameter
 - a and b are called call parameters
+- `sum<int>(1,2)` is way to call a template function
 
 ### Default argument
 - Prior to C++ 11, default argument were not valid in C++.
