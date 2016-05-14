@@ -16,10 +16,10 @@
 - But C++ 11 supports default arguments for templates.
 
 ### Argument Deduction
--Looking for some good explaination
+- Looking for some good explaination
 
 ### Overloaded function resolution
--Like ordinary functions, function templates can be overloaded. That is, you can have different function definitions with
+- Like ordinary functions, function templates can be overloaded. That is, you can have different function definitions with
 the same function name so that when that name is used in a function call, a C++ compiler must decide which one of
 the various candidates to call.
 - (http://stackoverflow.com/questions/22411482/c-template-functions-overload-resolution)
