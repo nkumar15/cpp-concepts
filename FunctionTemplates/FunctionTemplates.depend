@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1463230490 source:f:\programs\cplusplusconcepts\functiontemplates\main.cpp
+	<iostream>
+	"sametypes.h"
+
+1463230507 f:\programs\cplusplusconcepts\functiontemplates\sametypes.h
+	<iostream>
+

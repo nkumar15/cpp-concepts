@@ -1,9 +1,12 @@
 #include <iostream>
+#include "sametypes.h"
 
-using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    same_types();
+
+
+
     return 0;
 }

@@ -33,6 +33,10 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="main.cpp" />
+		<Unit filename="sametypes.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="sametypes.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
