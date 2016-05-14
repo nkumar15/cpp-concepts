@@ -1,5 +1,8 @@
 # Class Templates
 
+## Left over
+> Code implementation is left.
+
 ## Member functions
 - Code is instantiated for only those member functions that are called. For class templates member functions are instantiated only
 when they are used.
