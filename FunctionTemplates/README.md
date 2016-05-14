@@ -17,7 +17,7 @@
 - But C++ 11 supports default arguments for templates.
 
 ### Argument Deduction
-- What happens when you call a template function like a normal function. For example `sum(1,2)`, how does compiler knows the template parameter and call parameter types. Here comes the concept of function template argument deduction.
+- What happens when you call a template function like a normal function. For example `sum(1,2)`, how does compiler knows the template parameter and call parameter types. Here comes the concept of function template argument deduction.It allows you to call a function template as you would an ordinary function.
 
 ### Overloaded function resolution
 - Like ordinary functions, function templates can be overloaded. That is, you can have different function definitions with
