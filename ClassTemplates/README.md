@@ -43,7 +43,8 @@ when they are used.
   * Here `MyClass<int,int> m` will cause **error** coz it matches `MyClass<T,T>` and `MyClass<T,int>`
 
 ## Default template arguments
-- Class templates can be defined with default values for template parameters. For eg:
+- Class templates can be defined with default values for template parameters. 
+- For eg. `std:vector<T>` is default for template parameter below
 - `template<typename T,typename CONT = std::vector<T>>`
 - `class MyStack{`
 - `private:`
