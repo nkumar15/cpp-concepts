@@ -14,7 +14,4 @@ T const & sum(const T& a , const T& b){
     return a + b;
 }
 
-
-
-
 #endif // SAMETYPES_H_INCLUDED

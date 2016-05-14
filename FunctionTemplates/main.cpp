@@ -1,10 +1,12 @@
 #include <iostream>
 #include "sametypes.h"
+#include "overloaded.h"
 
 
 int main()
 {
-    same_types();
+    //same_types();
+    overloaded_call();
 
 
 

@@ -1,15 +1,12 @@
 #ifndef OVERLOADED_H_INCLUDED
 #define OVERLOADED_H_INCLUDED
+#include <iostream>
+#include <typeinfo>
+
+using namespace std;
 
 
-/* Function 1 */
-template<typename T>
-const& T max(const T& a, const T& b){
-    return a > b ? a : b;
-}
+void overloaded_call();
 
-int max (int a, int b){
-    return a > b ?a : b;
-}
 
 #endif // OVERLOADED_H_INCLUDED
