@@ -1,7 +1,7 @@
 #Function Templates
 
 ## Left over task
-> Argument deduction to understand.
+> Function specialization and partial specialization to understand.
 
 ##General concepts
 
