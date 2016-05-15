@@ -1,9 +1,9 @@
 #include <iostream>
-
+#include "mystack.h"
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
-    return 0;
+    test_int_stack();
+    test_string_stack();
 }
