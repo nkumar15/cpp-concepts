@@ -5,5 +5,5 @@ using namespace std;
 int main()
 {
     test_int_stack();
-    test_string_stack();
+    //test_string_stack();
 }

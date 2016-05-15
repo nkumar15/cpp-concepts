@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1463304312 source:f:\programs\cplusplusconcepts\classtemplates\main.cpp
+1463305451 source:f:\programs\cplusplusconcepts\classtemplates\main.cpp
 	<iostream>
 	"mystack.h"
 
-1463302784 source:f:\programs\cplusplusconcepts\classtemplates\mystack.cpp
+1463304386 source:f:\programs\cplusplusconcepts\classtemplates\mystack.cpp
 	"mystack.h"
 
-1463304330 f:\programs\cplusplusconcepts\classtemplates\mystack.h
+1463306120 f:\programs\cplusplusconcepts\classtemplates\mystack.h
 	<vector>
 	<iostream>
 	<deque>
