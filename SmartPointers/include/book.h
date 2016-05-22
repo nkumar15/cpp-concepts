@@ -22,4 +22,5 @@ public:
 
 void test_unique_pointer();
 void test_auto_pointer();
+void test_shared_pointer();
 #endif // BOOK_H_INCLUDED

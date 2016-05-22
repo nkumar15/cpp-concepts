@@ -32,7 +32,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/book.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/auto_pointer.cpp" />
+		<Unit filename="src/book.cpp" />
+		<Unit filename="src/unique_pointer.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

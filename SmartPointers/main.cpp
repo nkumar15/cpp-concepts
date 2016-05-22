@@ -2,7 +2,8 @@
 
 int main()
 {
-    test_unique_pointer();
+    test_shared_pointer();
+    //test_unique_pointer();
     //test_auto_pointer();
     return 0;
 }
