@@ -1,10 +1,10 @@
 #Smart Pointers Concepts
 
 ##Types
--auto_ptr
--unique_ptr
--shared_ptr
--weak_ptr
+- auto_ptr
+- unique_ptr
+- shared_ptr
+- weak_ptr
 
 ## Problem with auto_ptr
 - Transfer of ownership silently. Introduces potential bugs in code base.
