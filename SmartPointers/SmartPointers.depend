@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1463923884 source:f:\programs\cplusplusconcepts\smartpointers\main.cpp
+	"include/book.h"
+
+1463924040 f:\programs\cplusplusconcepts\smartpointers\include\book.h
+	<iostream>
+	<string.h>
+	<memory>
+
+1463924030 source:f:\programs\cplusplusconcepts\smartpointers\src\book.cpp
+	"../include/book.h"
+
+1463923853 source:f:\programs\cplusplusconcepts\smartpointers\src\unique_pointer.cpp
+	"../include/book.h"
+
+1463924179 source:f:\programs\cplusplusconcepts\smartpointers\src\auto_pointer.cpp
+	"../include/book.h"
+
