@@ -2,23 +2,32 @@
 #include <tuple>
 using namespace std;
 
-template<typename... T>
-void show_args(T... args)
+template<typename T>
+void show_args(T &val)
 {
-    int num_args = sizeof...(args);
-    std::tuple<T...> tuple_(args...);
-
-    cout<<std::get<0>(tuple_);
-    cout<<std::get<1>(tuple_);
-    cout<<std::get<2>(tuple_);
-
+    cout<<val<<" ";
 }
 
 
+template<typename U, typename... T>
+void show_args(U val, T... args)
+{
+    //int num_args = sizeof...(args);
+    cout<<val <<" ";
+    show_args(args...);
+}
 
 int main()
 {
-    cout << "Hello world!" << endl;
-    show_args(1,2.3,"Hello");
+    show_args(1,2.3,3.4f,"Hello");
     return 0;
 }
+
+
+/* Explaination */
+/*
+Value 1 is being passed to val (U val) in function
+2.3, 3.4 and hello are passed as variadic arguments
+so again variadic show_args gets called in which val becomes 2.3 and 3.4 and hello becomes args
+This cycle continues until it reaches last case when it is left with 1 argument hello */
+
