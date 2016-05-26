@@ -21,8 +21,8 @@ int main()
     cout << "Main Program message" << endl;
     std::chrono::milliseconds span(100);
 
-    //while(fut.wait_for(span) == std::future_status::timeout )
-    //    cout<<"."<<std::flush;
+    while(fut.wait_for(span) == std::future_status::timeout )
+        cout<<"."<<std::flush;
 
     bool prime =  fut.get();
 
