@@ -21,8 +21,6 @@ class Resource {
     void SetPath(const std::string& path);
     std::string& GetPath();
 
- 
-   
   private:
     Resource(const Resource& other) = delete;
     Resource& operator=(Resource& rhs) = delete;
