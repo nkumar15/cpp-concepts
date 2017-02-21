@@ -5,7 +5,7 @@ void Resource::SetPath(const std::string& path) {
 }
 
 
-std::string& Resource :: GetPath() {
+std::string Resource :: GetPath() {
   return m_path;
 }
 

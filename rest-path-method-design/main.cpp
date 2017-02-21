@@ -1,4 +1,4 @@
-include "resource.hpp"
+#include "resource.hpp"
 #include <memory>
 #include <iostream>
 #include <map>
@@ -35,20 +35,14 @@ int main() {
   const std::string logout = "/logout";
 
 
-  ResourceSharedPtr login_res_ptr = std::make_shared<Resource>();
-  login_res_ptr->SetPath(login);
-  login_res_ptr->SetMethodHandler(RequestMethod::GET, Login);
-  auto login_map = std::make_pair(login,login_res_ptr);
+  ResourceSharedPtr login_res_ptr = std::make_shared<Resource>(login, 
+                                      RequestMethod::GET, Login);
   
-  ResourceSharedPtr logout_res_ptr = std::make_shared<Resource>();
-  logout_res_ptr->SetPath(logout);
-  logout_res_ptr->SetMethodHandler(RequestMethod::GET, Logout);
-  auto logout_map = std::make_pair(logout,logout_res_ptr);
-
+  ResourceSharedPtr logout_res_ptr = std::make_shared<Resource>(logout, RequestMethod::GET,Logout);
 
   ResourceMap my_map;
-  my_map.insert(login_map);
-  my_map.insert(logout_map);
+  my_map.insert(std::make_pair(login,login_res_ptr));
+  my_map.insert(std::make_pair(logout,logout_res_ptr));
 
   int input;
   std::cout << "Enter 1 for login and 2 for logout: ";
